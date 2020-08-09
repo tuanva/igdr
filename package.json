@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bluebird": "^3.7.2",
     "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
     "instagram-private-api": "^1.41.0"
   },
   "devDependencies": {},
