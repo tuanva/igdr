@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mv .env.sample .env
 
 read -p 'IG Username: ' user
 sed -i -e"s/^IG_USERNAME=.*/IG_USERNAME=$user/" .env
