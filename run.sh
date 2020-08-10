@@ -9,4 +9,6 @@ sed -i -e"s/^IG_PASSWORD=.*/IG_PASSWORD=$pass/" .env
 
 echo 'Starting the app...'
 
+npm install
+
 node index.js
